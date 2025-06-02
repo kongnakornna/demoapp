@@ -62,7 +62,7 @@
 # Database
 ![db-1](https://github.com/user-attachments/assets/0d901527-b2f9-4267-929c-6eb6bae6f2c6)
 
-# Dockwe
+# Docker
 
 ![docker-1](https://github.com/user-attachments/assets/cdf37a0b-b56c-4f6b-8fdf-114d8069b607)
 
