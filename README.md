@@ -50,7 +50,8 @@
  -Email: demo@gmail.com
  -Password: Demo@123
 
-- api : http://localhost:3044/document
+- api : http://localhost:3044/document#/
 - api : http://localhost:3044/
-- api : http://localhost:3044/document
+- api : http://localhost:3044/demo
+- api : http://localhost:3044/v1/
 
