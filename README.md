@@ -45,6 +45,7 @@
 
 - fontend : http://localhost:8099/
  - http://localhost:8099/user/signup
+ - http://localhost:8099/pricecing
 
  -Username: demoadminapp
  -Email: demo@gmail.com
@@ -54,4 +55,25 @@
 - api : http://localhost:3044/
 - api : http://localhost:3044/demo
 - api : http://localhost:3044/v1/
+# API
+![api-1](https://github.com/user-attachments/assets/469a156e-1e7f-44b2-a203-c2993aa70b72)
+![api-2](https://github.com/user-attachments/assets/de0cb173-1f73-44b3-85d0-9ca183cad34f)
 
+# Database
+![db-1](https://github.com/user-attachments/assets/0d901527-b2f9-4267-929c-6eb6bae6f2c6)
+
+# Docker
+
+![docker-1](https://github.com/user-attachments/assets/cdf37a0b-b56c-4f6b-8fdf-114d8069b607)
+
+ # Web
+![web-1](https://github.com/user-attachments/assets/fb5f6be5-3754-40b5-b8c9-e9cbe37778f2)
+
+![web-2](https://github.com/user-attachments/assets/4297c35a-0f18-4b1c-811b-68852340c23f)
+
+![web-3](https://github.com/user-attachments/assets/3d60d7af-b2e4-4e98-bd18-243f3a5caf9d)
+
+![web-4](https://github.com/user-attachments/assets/c4fded3b-c927-43ca-b545-e1e28219694c)
+
+
+![web-5](https://github.com/user-attachments/assets/0345d9b7-0b70-4d6d-85ad-afaf0bdfd3bf)
