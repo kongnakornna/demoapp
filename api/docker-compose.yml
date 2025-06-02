@@ -1,0 +1,121 @@
+version: "3.7"
+
+services:
+  appapi:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./src:/app/src
+      - ./data:/app/data
+    ports:
+      - 3044:3044
+    expose:
+      - '3044'
+    env_file:
+      - .env
+    environment:
+      # PostgreSQL Configuration (สำหรับ common.config.ts)
+      - DATABASE_HOST=postgres
+      - DATABASE_PORT=5432
+      - DATABASE_username=postgresv2
+      - DATABASE_PASSWORD=postgresv2
+      - DATABASE_NAME=nest_demo
+
+        # PostgreSQL Configuration (สำหรับ database.config.ts)
+      - POSTGRES_HOST=postgres
+      - POSTGRES_PORT=5432
+      - POSTGRES_USER=postgresv2
+      - POSTGRES_PASSWORD=postgresv2
+      - POSTGRES_DB=nest_demo
+      
+      # Redis Configuration
+      - REDIS_HOST=redis
+      - REDIS_PORT=6382
+      
+      # Application Configuration
+      - NODE_ENV=development
+      - APP_PORT=3044
+      - SQLITE_DATABASE_PATH=/appapi/src/dbsqlite/data.sqlite3
+    depends_on:
+      - postgres
+      - redis
+    networks:
+      - docker.network
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+
+  # docker run -p 5436:5436 postgres
+  postgres:
+    image: postgres:16-alpine
+    container_name: docker.postgresv2
+    restart: unless-stopped
+    tty: true
+    ports:
+      - "5430:5432"
+    expose:
+      - '5430'
+    networks:
+      - docker.network
+    volumes:
+      - "./docker/postgresv2/dbdata:/var/lib/postgresql/data"
+    environment:
+      POSTGRES_USER: postgresv2
+      POSTGRES_PASSWORD: postgresv2
+      POSTGRES_DB: nest_demo
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+
+  redis:
+    container_name: redis2
+    hostname: redis2
+    image: redis:6.2-alpine
+    command: redis-server --port 6382
+    ports:
+      - "6382:6382"
+    expose:
+      - '6382'
+    volumes:
+      - redis-data:/data
+    restart: always
+    networks:
+      - docker.network
+
+  pgadmin:
+    image: dpage/pgadmin4
+    container_name: docker.pgadmin2
+    tty: true
+    depends_on:
+      - postgres
+    ports:
+      - "8098:80"
+    expose:
+      - '8098'
+    networks:
+      - docker.network
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@localhost.com
+      PGADMIN_DEFAULT_PASSWORD: admin
+
+  redis-commander:
+    container_name: redis-commander2
+    hostname: redis-commander2
+    image: rediscommander/redis-commander:latest
+    restart: always
+    environment:
+      - REDIS_HOSTS=local:redis:6382
+    ports:
+      - "8081:8081"
+    expose:
+      - '8081'
+    depends_on:
+      - redis
+    networks:
+      - docker.network
+
+volumes:
+  redis-data: {}
+
+networks:
+  docker.network:
+    driver: bridge
