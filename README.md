@@ -45,6 +45,7 @@
 
 - fontend : http://localhost:8099/
  - http://localhost:8099/user/signup
+ - http://localhost:8099/pricecing
 
  -Username: demoadminapp
  -Email: demo@gmail.com
@@ -73,3 +74,6 @@
 ![web-3](https://github.com/user-attachments/assets/3d60d7af-b2e4-4e98-bd18-243f3a5caf9d)
 
 ![web-4](https://github.com/user-attachments/assets/c4fded3b-c927-43ca-b545-e1e28219694c)
+
+
+![web-5](https://github.com/user-attachments/assets/0345d9b7-0b70-4d6d-85ad-afaf0bdfd3bf)
