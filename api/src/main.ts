@@ -41,8 +41,8 @@ async function bootstrap() {
    * N.B The Add Server builds the default BASE_API when generating client types
    */
   const config = new DocumentBuilder()
-    .setTitle('CmonIoT Auth Api Swagger Service')
-    .setDescription('CmonIoT API')
+    .setTitle('Demo App Auth Api Swagger Service')
+    .setDescription('Demo App API')
     .setVersion('1.0.1')
     /*.addBearerAuth(
       { type: 'http', scheme: 'bearer', bearerFormat: 'JWT' },
@@ -63,7 +63,7 @@ async function bootstrap() {
     swaggerOptions: {
       persistAuthorization: true,
     },
-    customSiteTitle: 'CmonIoT Swagger Documentation',
+    customSiteTitle: 'Demo App Swagger Documentation',
     //customfavIcon: 'https://avatars.githubusercontent.com/u/6936373?s=200&v=4',
     customJs: [
       'https://cdnjs.cloudflare.com/ajax/libs/swagger-ui/4.15.5/swagger-ui-bundle.min.js',
@@ -80,7 +80,7 @@ async function bootstrap() {
   app.use(helmet());
   await app.listen(configService.get<number>('app.port'), () => {
     console.log(
-      `CmonIoT Nest app is listening on port ${configService.get<number>(
+      `Demo App Nest app is listening on port ${configService.get<number>(
         'app.host',
       )} : ${configService.get<number>('app.port')}`,
     );
