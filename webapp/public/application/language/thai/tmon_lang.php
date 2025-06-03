@@ -23,5 +23,10 @@ $lang['button_sign_in']='เข้าระบบ';
 $lang['button_signup']='ลงทะเบียน';
 $lang['button_submit']='บันทึกข้อมูล';
 $lang['button_cancel']='ยกเลิก';
+$lang['dashboard_overall']='เดรดบอร์ดหลัก';
+$lang['menu_overall']='โอเวอร์ ออล';
+$lang['phone_number']='โทรศัพท์บ้าน';
+$lang['mobile_number']='โทรศัพท์มือถือ';
+$lang['lineid']='Line ID';
 
  

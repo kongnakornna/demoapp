@@ -23,5 +23,12 @@ $lang['button_sign_in']='Sign in';
 $lang['button_signup']='Sign Up';
 $lang['button_submit']='Submit';
 $lang['button_cancel']='Cancel';
+$lang['dashboard_overall']='Dashboard main';
+$lang['menu_overall']='Overall';
+$lang['phone_number']='Phone number';
+$lang['mobile_number']='Mobile number';
+$lang['lineid']='Line ID';
+
+
 
  
