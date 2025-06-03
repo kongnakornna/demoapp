@@ -6,8 +6,8 @@ services:
       context: .
       dockerfile: Dockerfile
     volumes:
-      - ./src:/app/src
-      - ./data:/app/data
+      - ./src:/appapi/src
+      - ./data:/appapi/data
     ports:
       - 3044:3044
     expose:
