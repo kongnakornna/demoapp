@@ -77,3 +77,9 @@
 
 
 ![web-5](https://github.com/user-attachments/assets/0345d9b7-0b70-4d6d-85ad-afaf0bdfd3bf)
+
+# Redis
+![redis-1](https://github.com/user-attachments/assets/e4b441dc-5ca4-4d9d-b0d7-a65fd7099941)
+
+
+
