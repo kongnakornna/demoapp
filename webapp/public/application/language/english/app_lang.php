@@ -21,7 +21,7 @@ require APPPATH . 'language/english/menu_lang.php';
 $lang['cachetool'] = 'Cache Tool';
 $lang['cachekey'] = 'Cache Key';
 $lang['versionapp'] = 'Version 0.1';
-$lang['copyright'] = 'By Kongnakorn jantakun';
+$lang['copyright'] = 'By Kongnakorn jantakun +6695-508-8091';
 $lang['lang'] = 'en';
 $lang['lang_name'] = 'EN';
 $lang['langs'] = 'English';

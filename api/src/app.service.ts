@@ -11,7 +11,7 @@ export class AppService {
     private userRepository: Repository<User>,
   ) {}
   getHello(): string {
-    return 'Cmon App Restful API!';
+    return 'Demo App Restful API!  By kongnakorn jantakun  +6695-508-8091';
   }
 
   getHi(): string {

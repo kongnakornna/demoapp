@@ -1,8 +1,8 @@
 <header class="hero pb-0">
     <div class="container">
-        <h1 class="hero-title">Develop IoT apps with&nbsp;CMON</h1>
+        <h1 class="hero-title">Develop IoT apps with&nbsp;demo</h1>
         <p class="hero-description mt-4">
-            Cmon is a free and open source web application UI kit based on Bootstrap&nbsp;5, with hundreds
+            demo is a free and open source web application UI kit based on Bootstrap&nbsp;5, with hundreds
             responsive
             components and multiple layouts.
         </p>
@@ -31,7 +31,7 @@
                         <div class="col-8">
                             <a href="<?php echo base_url();?>" class="browser-input" target="_blank"
                                 rel="noopener noreferrer" data-bs-toggle="tooltip" data-bs-placement="top"
-                                title="Open preview of Cmon dashboard!">
+                                title="Open preview of demo dashboard!">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                     stroke-linejoin="round" class="icon me-2 text-green icon-sm">
@@ -40,7 +40,7 @@
                                     <path d="M11 16a1 1 0 1 0 2 0a1 1 0 0 0 -2 0" />
                                     <path d="M8 11v-4a4 4 0 1 1 8 0v4" />
                                 </svg>
-                                https://cmoniot.io
+                                https://demoiot.io
                             </a>
                         </div>
                     </div>
@@ -174,7 +174,7 @@
                     </svg>
                 </div>
                 <h2 class="h2">Compatible with 90+ email clients</h2>
-                <p class="text-secondary">Tested across 90+ email clients and devices, Cmon emails will help you
+                <p class="text-secondary">Tested across 90+ email clients and devices, demo emails will help you
                     make your email communication professional and reliable.</p>
             </div>
             <div class="col-md-6 col-lg">
@@ -241,7 +241,7 @@
                             <div class="col">
                                 <h3 class="h2 mb-2">Designed with users in mind</h3>
                                 <p class="text-secondary m-0">
-                                    Cmon is fully responsive and compatible with all modern browsers. Thanks to
+                                    demo is fully responsive and compatible with all modern browsers. Thanks to
                                     its modern, user-friendly design you can create a fully functional interface
                                     that users will love. Every UI element has been created with
                                     attention to detail to make your interface beautiful!
@@ -270,7 +270,7 @@
                                 <p class="text-secondary m-0">
                                     Having in mind what it takes to write high-quality code, we want to help you
                                     speed up the development process and keep your code clean. Based on Bootstrap 5,
-                                    Cmon is a cutting-edge solution, compatible with all modern
+                                    demo is a cutting-edge solution, compatible with all modern
                                     browsers and fully responsive.
                                 </p>
                             </div>
@@ -296,13 +296,13 @@
                                 <h3 class="h2 mb-2">Fully customizable</h3>
                                 <p class="text-secondary m-0">You can easily customize the UI elements to make them
                                     fit the needs of your project. And don’t worry if you don’t have much experience
-                                    - Cmon is easy to get started!</p>
+                                    - demo is easy to get started!</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>Develop IoT apps with CMON
+        </div>Develop IoT apps with demo
     </div>
 </section>
 
@@ -396,7 +396,7 @@
                             <div class="col">
                                 <h3 class="h2 mb-2">Designed with users in mind</h3>
                                 <p class="text-secondary m-0">
-                                    Cmon is fully responsive and compatible with all modern browsers. Thanks to
+                                    demo is fully responsive and compatible with all modern browsers. Thanks to
                                     its modern, user-friendly design you can create a fully functional interface
                                     that users will love. Every UI element has been created with
                                     attention to detail to make your interface beautiful!
@@ -425,7 +425,7 @@
                                 <p class="text-secondary m-0">
                                     Having in mind what it takes to write high-quality code, we want to help you
                                     speed up the development process and keep your code clean. Based on Bootstrap 5,
-                                    Cmon is a cutting-edge solution, compatible with all modern
+                                    demo is a cutting-edge solution, compatible with all modern
                                     browsers and fully responsive.
                                 </p>
                             </div>
@@ -451,7 +451,7 @@
                                 <h3 class="h2 mb-2">Fully customizable</h3>
                                 <p class="text-secondary m-0">You can easily customize the UI elements to make them
                                     fit the needs of your project. And don’t worry if you don’t have much experience
-                                    - Cmon is easy to get started!</p>
+                                    - demo is easy to get started!</p>
                             </div>
                         </div>
                     </div>
@@ -478,7 +478,7 @@
     <div class="container">
 
         <div class="section-header">
-            <h2 class="section-title">Trusted by CMON</h2>
+            <h2 class="section-title">Trusted by demo</h2>
             <p class="section-description">Our Users send us bunch of smilies with our services, and we love them 😍
             </p>
         </div>
@@ -508,7 +508,7 @@
                                 </div>
 
                                 <p>
-                                    Ever since I started using Cmon, my HTML designing process has been
+                                    Ever since I started using demo, my HTML designing process has been
                                     significantly smoother. Its intuitive interface is a breath of fresh air!
                                 </p>
                             </div>
@@ -540,7 +540,7 @@
                                 </div>
 
                                 <p>
-                                    Having used many UI kits in the past, I can confidently say that Cmon stands
+                                    Having used many UI kits in the past, I can confidently say that demo stands
                                     out. The level of customization it offers is unparalleled.
                                 </p>
                             </div>
@@ -572,7 +572,7 @@
                                 </div>
 
                                 <p>
-                                    Navigating through Cmon has been a breeze! Its intuitive layout helps me save
+                                    Navigating through demo has been a breeze! Its intuitive layout helps me save
                                     time and focus more on the creative aspect of my work.
                                 </p>
                             </div>
@@ -666,20 +666,20 @@
             <div class="col-lg">
                 <div class="space-y-5">
                     <div>
-                        <div class="h3 mb-1">Can I use Cmon in commercial projects?</div>
-                        <div class="text-secondary">Of course! Cmon is under MIT license, so you can confidently
+                        <div class="h3 mb-1">Can I use demo in commercial projects?</div>
+                        <div class="text-secondary">Of course! demo is under MIT license, so you can confidently
                             use it in commercial projects. However, remember to include a note that your project
-                            uses Cmon.</div>
+                            uses demo.</div>
                     </div>
                     <div>
-                        <div class="h3 mb-1">How do I get notified of new Cmon versions?</div>
+                        <div class="h3 mb-1">How do I get notified of new demo versions?</div>
                         <div class="text-secondary">You may watch the releases on GitHub or follow me on Twitter.
                         </div>
                     </div>
                     <div>
-                        <div class="h3 mb-1">Can Cmon be used with WordPress?</div>
+                        <div class="h3 mb-1">Can demo be used with WordPress?</div>
                         <div class="text-secondary">
-                            Cmon is an HTML template that can be used for any purpose. However, it is not made to
+                            demo is an HTML template that can be used for any purpose. However, it is not made to
                             be easily installed on WordPress. It will require some effort and enough knowledge of
                             the WordPress script to do so.
                         </div>

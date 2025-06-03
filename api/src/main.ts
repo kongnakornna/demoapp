@@ -42,7 +42,7 @@ async function bootstrap() {
    */
   const config = new DocumentBuilder()
     .setTitle('Demo App Auth Api Swagger Service')
-    .setDescription('Demo App API')
+    .setDescription('Demo App API by kongnakorn jantakun +6695-508-8091')
     .setVersion('1.0.1')
     /*.addBearerAuth(
       { type: 'http', scheme: 'bearer', bearerFormat: 'JWT' },
